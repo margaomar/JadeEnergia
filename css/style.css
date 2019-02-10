@@ -1,0 +1,451 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700);
+
+@font-face {
+	font-family: 'Montserrat-Light';
+    src: url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Montserrat-Light.woff') format('woff'),
+         url('../fonts/Montserrat-Light.ttf') format('truetype'),
+         url('../fonts/Montserrat-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+         url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
+         url('../fonts/Montserrat-SemiBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-UltraLight';
+    src: url('../fonts/Montserrat-UltraLight.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Montserrat-UltraLight.woff') format('woff'),
+         url('../fonts/Montserrat-UltraLight.ttf') format('truetype'),
+         url('../fonts/Montserrat-UltraLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	color: #5C5C5C;
+	color: #636363;
+}
+h1, h2, .btn{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+.header .h1, .header h1 {
+    font-size: 40px;
+    line-height: 1;
+    padding-right: 12%;
+}
+
+h2{
+	font-size: 23px;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+}
+p{
+	font-family: 'Montserrat-Light', sans-serif;
+	font-size: 15px;
+	line-height: 1.2;
+}
+a:focus, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.light-montse{
+	font-family: 'Montserrat-UltraLight', sans-serif;
+}
+.green{
+	color: #41BD7E;
+}
+.bg-green{
+	background-color: #41BD7E;
+}
+.bg-grey{
+	background-color: #4A4A4A;
+}
+.white{
+	color: #fff;
+}
+.no-margin{
+	margin: 0 !important;
+}
+
+.padding-modulo{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.no-pad-top{
+	padding-top: 0;
+}
+.padding-modulo-2,
+.padding-modulo-3{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.separador-25 {
+    height: 25px;
+}
+.separador-90 {
+    height: 45px;
+}
+.separador-50 {
+    height: 25px;
+}
+.separador-120 {
+	height: 60px;
+}
+
+/*header*/
+.navbar {
+    height: 60px;
+    background-color: #41BD7E;
+    margin-bottom: 0;
+}
+.navbar-brand{
+	padding: 10px 15px;
+}
+.navbar-brand img{
+	width: 74px;
+}
+
+address h3,
+address p{
+	text-align: right;
+	color: #fff;
+    padding-right: 15px;
+}
+address h3{
+	margin-top: 18px;
+    margin-bottom: 3px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+address a{
+	color: #fff;
+}
+address a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.small{
+	font-size: 10px;
+	letter-spacing: 0.3px;
+}
+.btn-center {
+    text-align: center;
+}
+.header{
+	padding-top: 1.7%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background-image: url("../img/bg-header.jpg");
+    background-repeat: no-repeat;
+	background-position: 80% top;
+}
+.header p {
+    padding-right: 15%;
+}
+.header p.destacado  {
+    padding-right: 0;
+        display: inline-block;
+}
+.header .btn-center {
+    text-align: center;
+    padding-right: 0px;
+}
+.destacado{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 0;
+	line-height: 0.3;
+}
+.margin-destacado{
+	padding-top: 13%;
+	/*padding-bottom: 17%;
+	padding-bottom: 20%;*/
+	    padding-bottom: 60px;
+}
+.destacado span{
+	font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 70px;
+    color: #41BD7E;
+    position: relative;
+    padding: 0 8px;
+    vertical-align: top;
+}
+.destacado span:after {
+    position: absolute;
+    content: "+consumo";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #41BD7E;
+    display: inline-table;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn {
+	padding: 13px 64px;
+    /*padding: 13px 81px;*/
+    /*margin: 16px 0 28px;*/
+    border-radius: 3px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #F5A623;
+    border-color: #F5A623;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+    color: #fff;
+    background-color: #ED9514;
+    border-color: #ED9514;
+    -moz-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.4);
+	box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.4);
+	outline: none;
+}
+.btn-xs{
+	padding: 13px 40px;
+}
+.btn-xs.green{
+	background-color: #41BD7E;
+    border-color: #41BD7E;
+}
+.btn-xs.green:hover,
+.btn-xs.green:active,
+.btn-xs.green:focus {
+    color: #41BD7E;
+    background-color: #fff;
+    border-color: #41BD7E;
+}
+.shadow{
+	-moz-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.4);
+	box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.4);
+}
+.fix-padding-module-xs{
+	padding-top: 0;
+}
+
+.title-margin{
+	margin-bottom: 25px;
+}
+
+/*second module*/
+.green-module{
+	background-color: green;
+	color: #fff;
+}
+.grey-module{
+	color: #fff;
+}
+.cuadrado {
+	border: 2px solid #fff;
+    padding: 20px 0 6px 0;
+	margin-top: 20px;
+    margin-left: 16%;
+    margin-right: 16%;
+    background-color: #41BD7E;
+}
+.mod-icons .row{
+	position: relative;
+}
+.line:after {
+    content: "";
+    position: absolute;
+    border-right: 2px solid #fff;
+    width: 2px;
+    height: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.padding-modulo, 
+.padding-modulo-3 {
+    z-index: 100;
+}
+.mod-icons p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 0 9%;
+}
+
+/*thirst*/
+.mod-slim-15{
+	padding: 0 15%;
+}
+.mod-slim p {
+    padding: 8px 12% 0 12%;
+}
+.mod-slim blockquote {
+	padding-left: 12%;
+	padding-right: 12%;
+}
+.slim {
+    padding: 0 18%;
+}
+.mod-slim-xs p{
+	padding: 6px 20%;
+}
+.m-top-5{
+	margin-top: 5px;
+}
+.fix-padding-top-xs-bq {
+    margin-top: -12%;
+}
+blockquote:last-of-type{
+	padding-bottom: 0;
+}
+blockquote {
+    font-family: 'Montserrat-UltraLight', sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #fff;
+    border-left: 0;
+    text-align: center;
+}
+blockquote span{
+	font-family: 'Montserrat-Light', sans-serif;
+	font-size: 18px;
+    line-height: 2.2;
+}
+.prefooter p{
+	font-family: 'Montserrat-Light', sans-serif;
+	font-size: 18px;
+	padding: 4% 22%;
+}
+.prefooter h2{
+	padding: 0 12%;
+}
+footer p {
+    padding-top: 8px;
+    text-align: center;
+}
+footer a {
+    color: #636363;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 495px){
+	.margin-destacado {
+	    padding-bottom: 96px;
+	}
+
+}
+@media (min-width: 768px){
+	.navbar-header {
+	    float: inherit;
+	}
+	.header .h1, .header h1 {
+	    font-size: 47px;
+	}
+	.header {
+	    background-size: cover; 
+	    background-position: right top;
+	}
+	.fix-top-module{
+		padding-top: inherit;
+	}
+	.fix-padding-module-xs{
+		padding-top: 25px;
+	    margin-top: inherit;
+	}
+	.btn {
+	    margin: 16px 0 28px;
+	    padding: 13px 81px;
+	}
+	.header .btn-center {
+	    text-align: left;
+	}
+	.mod-slim-15{
+		padding: 0;
+	}
+	.mod-slim-xs p{
+		padding: 0px;
+	}
+	.destacado{
+		font-size: 22px;
+		line-height: 0.5;
+	}
+	.margin-destacado{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	p{
+		font-size: 18px;
+	}
+	p.destacado {
+	    line-height: inherit;
+	    display: inline-block;
+	}
+	.destacado span{
+	    vertical-align: middle;
+	    padding: 0 32px;
+	    position: relative;
+	}
+	.destacado span:after {
+	    bottom: -6px;
+	}
+	.padding-modulo-3{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.line:after {
+		border-bottom: 2px solid #fff;
+	    width: 210%;
+	    height: 2px;
+	    bottom: 48%;
+	    z-index: -1;
+	    left: inherit;
+	    transform:none;
+	}
+	blockquote {
+	    text-align: left;
+	    font-size: 18px;
+	}
+	.mod-slim blockquote {
+		padding: 10px 5% 0 0;
+	}
+	.fix-padding-top-xs-bq {
+	    margin-top: inherit;
+	}	
+	.slim {
+	    padding: 0 28%;
+	}
+	.prefooter h2{
+		padding: 0 28%;
+	}
+	.prefooter p{
+		font-family: 'Montserrat-Light', sans-serif;
+		font-size: 18px;
+		padding: 4% 15%;
+	}
+	footer p{
+		text-align: right;
+	}
+}
+@media (min-width: 992px){
+
+	.padding-modulo-2{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+}
+
+@media (min-width: 1200px){
+
+
+}
+
