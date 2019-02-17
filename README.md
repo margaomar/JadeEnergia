@@ -1,5 +1,6 @@
 # Jade Energia | Landing1
-Landing Page, test A/B
+
+> Landing Page, test A/B
 
 
 ----
@@ -22,9 +23,9 @@ You can see those four projects live going to:
 ----
 ## Media Query Mobile First Break Points
 
-425px
+>425px
 
-1024px
+>1024px
 
 ----
 ## Device Screenshots
@@ -46,13 +47,13 @@ You can see those four projects live going to:
 
 ----
 ## Date
-* Nov-2015
+>* Nov-2015
 
 ----
 ## Company
-* Jade Energy
+>* Jade Energy
 
 ----
 ## Agency
-* [FikStores](https://thefik.com)
+>* [FikStores](https://thefik.com)
 
